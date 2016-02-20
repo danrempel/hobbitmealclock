@@ -21,30 +21,30 @@ class Bot < ActiveRecord::Base
 	end
 	
 	def self.breakfast
-		CLIENT.update("It's time for breakfast! #hobbitmealclock")
+		CLIENT.update("Glory be! Time to make breakfast! #hobbitmealclock")
 	end
 
 	def self.second_breakfast
-		CLIENT.update("It's time for second breakfast! #hobbitmealclock")
+		CLIENT.update("One was clearly not enough. It's time to have second breakfast! #hobbitmealclock")
 	end
 
 	def self.elevenses
-		CLIENT.update("It's time for elevenses! #hobbitmealclock")
+		CLIENT.update("Elevenses, anyone? #hobbitmealclock")
 	end
 
 	def self.lunch
-		CLIENT.update("It's time for lunch! #hobbitmealclock")
+		CLIENT.update("Just a spot of lunch! #hobbitmealclock")
 	end
 
 	def self.afternoon_tea
-		CLIENT.update("It's time for afternoon tea! #hobbitmealclock")
+		CLIENT.update("Feeling peckish? Must be time for afternoon tea. #hobbitmealclock")
 	end
 
 	def self.dinner
-		CLIENT.update("It's time for dinner! #hobbitmealclock")
+		CLIENT.update("Adventures. Nasty disturbing uncomfortable things! Make you late for dinner! #hobbitmealclock")
 	end
 
 	def self.supper
-		CLIENT.update("It's time for supper! #hobbitmealclock")
+		CLIENT.update("Ahhh, supper. A meal fit for a Hobbit!  #hobbitmealclock")
 	end
 end
