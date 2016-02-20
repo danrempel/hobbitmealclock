@@ -19,4 +19,32 @@ class Bot < ActiveRecord::Base
 			CLIENT.update(Bot.respond(t.user.screen_name), in_reply_to_status_id: t.id)
 		}
 	end
+	
+	# def self.breakfast
+	# 	CLIENT.update("It's time for breakfast! #hobbitmealclock")
+	# end
+
+	# def self.second_breakfast
+	# 	CLIENT.update("It's time for second breakfast! #hobbitmealclock")
+	# end
+
+	# def elevenses
+	# 	CLIENT.update("It's time for elevenses! #hobbitmealclock")
+	# end
+
+	# def lunch
+	# 	CLIENT.update("It's time for lunch! #hobbitmealclock")
+	# end
+
+	# def afternoon_tea
+	# 	CLIENT.update("It's time for afternoon tea! #hobbitmealclock")
+	# end
+
+	# def dinner
+	# 	CLIENT.update("It's time for dinner! #hobbitmealclock")
+	# end
+
+	# def self.supper
+	# 	CLIENT.update("It's time for supper! #hobbitmealclock")
+	# end
 end
