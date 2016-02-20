@@ -17,6 +17,7 @@ gem 'twitter', '~> 5.16'
 gem 'figaro', '~> 1.1', '>= 1.1.1'
 gem 'randumb', '~> 0.5.0'
 gem 'whenever', :require => false
+gem 'newrelic_rpm', '~> 3.15', '>= 3.15.0.314'
 
 group :development, :test do
   gem 'sqlite3'
