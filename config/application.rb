@@ -24,6 +24,6 @@ module Hobbitmealclock
     config.active_record.raise_in_transactional_callbacks = true
 
     # Set time zone for cron jobs
-    config.time_zone = "Mountain Time (US & Canada)" => "America/Denver"
+    config.time_zone = "Mountain Time (US & Canada)"
   end
 end
