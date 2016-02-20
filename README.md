@@ -1,8 +1,8 @@
 # Hobbit Meal Clock
 
-This app searches Twitter for the hashtag *#secondbreakfast* and replies with a quote from Merry.
+This app tweets at scheduled times to let you know which Hobbity meal you should be eating. It also periodically searches Twitter for the hashtag *#secondbreakfast* and replies with a quote from Merry.
 
-### Future Plans
+## Hobbit Meals
 
 * Add a tweet schedulder to tweet the following:
 	* Breakfast - 7am.
@@ -13,4 +13,7 @@ This app searches Twitter for the hashtag *#secondbreakfast* and replies with a 
 	* Dinner - 6 pm.
 	* Supper - 9 pm.
 
-* Add an if statement to avoid tweeting someone who has already been tweeted in the event 24 hours has gone by with no one new tweeting using the #secondbreakfast hashtag.
+## Future Plans
+
+* Add a method to avoid tweeting someone who has already been tweeted in the event 24 hours has gone by with no one new tweeting using the #secondbreakfast hashtag.
+* Add an array of tweets to randomly choose from for each meal time so the novelty doesn't get too stale.
