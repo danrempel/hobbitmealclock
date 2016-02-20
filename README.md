@@ -3,15 +3,13 @@
 This app tweets at scheduled times to let you know which Hobbity meal you should be eating. It also periodically searches Twitter for the hashtag *#secondbreakfast* and replies with a quote from Merry.
 
 ## Hobbit Meals
-
-* Add a tweet schedulder to tweet the following:
-	* Breakfast - 7am.
-	* Second breakfast - 9 am.
-	* Elevenses - 11 am.
-	* Lunch - 1 pm.
-	* Afternoon tea - 3pm.
-	* Dinner - 6 pm.
-	* Supper - 9 pm.
+* Breakfast - 7am.
+* Second breakfast - 9 am.
+* Elevenses - 11 am.
+* Lunch - 1 pm.
+* Afternoon tea - 3pm.
+* Dinner - 6 pm.
+* Supper - 9 pm.
 
 ## Future Plans
 
