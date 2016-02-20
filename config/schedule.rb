@@ -3,29 +3,23 @@ every 1.day, :at => '12:00 pm' do
 end
 
 every 1.day, :at => '7:00 am' do
-  runner "CLIENT.update("It's time for breakfast! #hobbitmealclock")"
+  runner "Bot.breakfast"
 end
 
 every 1.day, :at => '9:00 am' do
-  runner "CLIENT.update("It's time for second breakfast! #hobbitmealclock")"
-end
+  runner "Bot.second_breakfast"
 
 every 1.day, :at => '11:00 am' do
-  runner "CLIENT.update("It's time for elevenses! #hobbitmealclock")"
-end
+  runner "Bot.elevenses"
 
 every 1.day, :at => '1:00 pm' do
-  runner "CLIENT.update("It's time for lunch! #hobbitmealclock")"
-end
+  runner "Bot.lunch"
 
 every 1.day, :at => '3:00 pm' do
-  runner "CLIENT.update("It's time for afternoon tea! #hobbitmealclock")"
-end
+  runner "Bot.afternoon_tea"
 
 every 1.day, :at => '6:00 pm' do
-  runner "CLIENT.update("It's time for dinner! #hobbitmealclock")"
-end
+ runner "Bot.dinner"
 
 every 1.day, :at => '9:00 pm' do
-  runner "CLIENT.update("It's time for supper! #hobbitmealclock")"
-end
+  runner "Bot.supper"
